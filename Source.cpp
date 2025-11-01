@@ -15,10 +15,16 @@ int main()
 	cin >> b;
 	cout<<"Tong ="<< tinhTong(a,b);
 	cout << "Hieu = " << tinhhieu(a, b);
+	cout << "Tich = " << tich(a,b);
 	system("pause");
 	return 0;
 	
 }
+
+int tich(int a,int b){
+	return a*b;
+}
+
 int tinhhieu(int a, int b) {
 	return a - b;
 }

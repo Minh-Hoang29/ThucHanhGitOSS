@@ -13,7 +13,7 @@ int main()
 	cin >> a;
 	cout << "nhap b:";
 	cin >> b;
-	cout<<"Tong =";
+	cout<<"Tong ="<< tinhTong(a,b);
 	cout << "Hieu = " << tinhhieu(a, b);
 	system("pause");
 	return 0;
@@ -21,4 +21,7 @@ int main()
 }
 int tinhhieu(int a, int b) {
 	return a - b;
+}
+int tinhTong(int a, int b){
+	return a+b;
 }

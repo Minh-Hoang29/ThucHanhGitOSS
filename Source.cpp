@@ -8,6 +8,7 @@ float thuong(int a, int b);
 bool Check_SHT(int N);
 int main()
 {
+	//note 2 bien a va b
 	int a, b;
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	cout << "nhap a:";

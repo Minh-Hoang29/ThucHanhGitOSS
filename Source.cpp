@@ -14,6 +14,8 @@ int main()
 	cin >> a;
 	cout << "nhap b:";
 	cin >> b;
+	cout<<"themlab2cau1";
+	cout<<"hetbai2cau1"
 	cout<<"Tong ="<< tinhTong(a,b);
 	cout << "Hieu = " << tinhhieu(a, b);
 	cout << "Tich = " << tich(a,b);
